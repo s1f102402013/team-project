@@ -1,3 +1,17 @@
 .red{
     color:red
 }
+
+h2.intro{
+    border-bottom: solid black;
+}
+strong.intro{
+    color: blue;
+}
+p.intro{
+    font-size: smaller;
+    color: grey
+}
+.intro{
+    width: 80%;
+}
