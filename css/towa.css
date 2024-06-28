@@ -1,5 +1,6 @@
 li.photo {
     list-style: none;
+    object-fit: cover;
 }
 
 ul.green {
