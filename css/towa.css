@@ -1,0 +1,7 @@
+li.photo {
+    list-style: none;
+}
+
+ul.green {
+    display: flex;
+}
