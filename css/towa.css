@@ -1,8 +1,44 @@
-li.photo {
+body.back {
+    width: 100%;
+  height: 800px;
+  background-image: url(towa's photo/無題8_20240628191553.jpg);
+
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.green {
     list-style: none;
+    display: flex;
+    gap: 0 43px;
+    width: 776px;
+    margin: 0 auto;
     object-fit: cover;
 }
 
-ul.green {
-    display: flex;
+.photo {
+    width: 33.33333%;
+}
+
+.photo > img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    transition: tranceform 0.4s;
+}
+
+.photo:hover > img {
+    transform: scale(1.15);
+}
+
+.mrs {
+    font-family: system-ui;
+    font-weight: 900;
 }
