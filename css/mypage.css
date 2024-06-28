@@ -1,0 +1,22 @@
+body{
+    background-color: bisque;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+h1.title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: solid black;
+}
+
+h2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: solid black;
+}
