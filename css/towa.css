@@ -1,18 +1,4 @@
-body.back {
-    width: 100%;
-  height: 800px;
-  background-image: url(towa's photo/無題8_20240628191553.jpg);
 
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-left: 28px;
-  padding-right: 28px;
-}
 
 .green {
     list-style: none;
@@ -41,4 +27,33 @@ body.back {
 .mrs {
     font-family: system-ui;
     font-weight: 900;
+}
+
+.back {
+    background-image: url("towa's photo/無題8_20240628191553.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#name {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: solid black;
+}
+
+.back-2 {
+    border:  solid 1px;                             /* 枠線指定 */
+    display:  inline-block;                         /* インラインブロックにする */
+    padding: 10px 20px;                             /* 余白指定 */
+    background-color: rgba(255, 255, 255, 0.7);     /* 背景色指定 */
+}
+.back {
+    text-align:  center;    /* 文字中央寄せ */
+    padding:  150px;        /* 余白指定 */
+    border: solid 2px;      /* 枠線指定 */
+    background-color: #016241;
 }
